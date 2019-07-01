@@ -1,0 +1,20 @@
+﻿
+#divMain {
+    text-align: center;
+    margin: 50px auto;
+}
+#spanTitle {
+    font-size: 30px;
+}
+#txtUser, #txtPassword {
+    background-color: lightblue;
+    width: 130px;
+    height: 20px;
+    border: 1px solid black;
+}
+#tableMain {
+    margin: 30px auto;
+}
+#btnLogin {
+    border: 1px solid blue;
+}

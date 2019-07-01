@@ -1,0 +1,54 @@
+﻿html, body, form {
+    height: 100%;
+    overflow: hidden;
+}
+
+div#main {
+    height: 100%;
+}
+
+#title {
+    font-size: 24px;
+}
+
+div#left, div#right {
+    float: left;
+    height: 90%;
+    border: 1px solid black;
+}
+
+div#left {
+    width: 20%;
+}
+
+div#right {
+    width: 78%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    width: 120px;
+    line-height: 90px;
+    font-size: 18px;
+    text-align: center;
+    background-color: gainsboro;
+    margin: 10px 0;
+}
+
+    li a {
+        text-decoration: none;
+        display: block;
+    }
+
+    li.actived {
+        background-color: rgb(146,208,80);
+    }
+
+    li.noActived:hover {
+        font-size: 20px;
+        background-color: lightgreen;
+        transition: 0.5s;
+    }

@@ -1,0 +1,19 @@
+﻿#tableInput td:first-child {
+    width: 120px;
+    text-align: center;
+}
+
+#buttonList {
+    text-align: right;
+}
+
+#buttonList [type="submit"] {
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    font-size: large;
+}
+
+#buttonList [type="submit"]:hover {
+    background-color: lightgreen;
+}
